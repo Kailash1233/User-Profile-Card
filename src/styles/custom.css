@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+.UserProfileCardContainer {
+  background-color: white;
+  padding: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile-container {
+  display: flex;
+}
+
+.user-profile-image img {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.user-profile-info {
+  margin-left: 16px;
+}
+
+.user-profile-info h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.user-profile-info p {
+  color: #666;
+  margin-bottom: 8px;
+}
